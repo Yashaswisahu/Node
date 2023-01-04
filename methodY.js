@@ -30,3 +30,8 @@ app.patch('/users',(req,res)=>{
         msg:"data is edited successfully" 
          })
 }) 
+app.delete('/users',(req,res)=>{
+    res.json({
+        "msg":"data deleted successfully"
+    })
+})
